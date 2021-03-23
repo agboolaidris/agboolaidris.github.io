@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/agboolaidris/agboolaidris.github.io/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/agboolaidris/agboolaidris.github.io/static/js/main.524f09be.chunk.js",
-    "main.js.map": "/agboolaidris/agboolaidris.github.io/static/js/main.524f09be.chunk.js.map",
-    "runtime-main.js": "/agboolaidris/agboolaidris.github.io/static/js/runtime-main.94cd9c0b.js",
-    "runtime-main.js.map": "/agboolaidris/agboolaidris.github.io/static/js/runtime-main.94cd9c0b.js.map",
-    "static/js/2.d55cfd6c.chunk.js": "/agboolaidris/agboolaidris.github.io/static/js/2.d55cfd6c.chunk.js",
-    "static/js/2.d55cfd6c.chunk.js.map": "/agboolaidris/agboolaidris.github.io/static/js/2.d55cfd6c.chunk.js.map",
-    "static/js/3.53de9fc3.chunk.js": "/agboolaidris/agboolaidris.github.io/static/js/3.53de9fc3.chunk.js",
-    "static/js/3.53de9fc3.chunk.js.map": "/agboolaidris/agboolaidris.github.io/static/js/3.53de9fc3.chunk.js.map",
-    "index.html": "/agboolaidris/agboolaidris.github.io/index.html",
-    "static/css/main.9d5b29c0.chunk.css.map": "/agboolaidris/agboolaidris.github.io/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.d55cfd6c.chunk.js.LICENSE.txt": "/agboolaidris/agboolaidris.github.io/static/js/2.d55cfd6c.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/agboolaidris/agboolaidris.github.io/static/media/logo.6ce24c58.svg"
+    "main.css": "/agboolaidris.github.io/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/agboolaidris.github.io/static/js/main.524f09be.chunk.js",
+    "main.js.map": "/agboolaidris.github.io/static/js/main.524f09be.chunk.js.map",
+    "runtime-main.js": "/agboolaidris.github.io/static/js/runtime-main.addff412.js",
+    "runtime-main.js.map": "/agboolaidris.github.io/static/js/runtime-main.addff412.js.map",
+    "static/js/2.d55cfd6c.chunk.js": "/agboolaidris.github.io/static/js/2.d55cfd6c.chunk.js",
+    "static/js/2.d55cfd6c.chunk.js.map": "/agboolaidris.github.io/static/js/2.d55cfd6c.chunk.js.map",
+    "static/js/3.53de9fc3.chunk.js": "/agboolaidris.github.io/static/js/3.53de9fc3.chunk.js",
+    "static/js/3.53de9fc3.chunk.js.map": "/agboolaidris.github.io/static/js/3.53de9fc3.chunk.js.map",
+    "index.html": "/agboolaidris.github.io/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/agboolaidris.github.io/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.d55cfd6c.chunk.js.LICENSE.txt": "/agboolaidris.github.io/static/js/2.d55cfd6c.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/agboolaidris.github.io/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.94cd9c0b.js",
+    "static/js/runtime-main.addff412.js",
     "static/js/2.d55cfd6c.chunk.js",
     "static/css/main.9d5b29c0.chunk.css",
     "static/js/main.524f09be.chunk.js"
