@@ -1,0 +1,179 @@
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4 {
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.25rem;
+}
+h4 {
+  font-size: 0.875rem;
+}
+p {
+  margin-bottom: 1.25rem;
+  color: lighten($color: $secondary, $amount: 20);
+}
+@media screen and (min-width: 800px) {
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 1.75rem;
+  }
+  h4 {
+    font-size: 1rem;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    line-height: 1;
+  }
+}
+
+.test-wrapper {
+  background: darken($color: $neutral, $amount: 10%);
+  width: 100%;
+  padding: 2em 5%;
+  display: flex;
+  justify-content: center;
+  .testimonial {
+    width: 50%;
+    height: max-content;
+    .title {
+      text-align: center;
+      margin-bottom: 4rem;
+    }
+    .underline {
+      height: 0.25rem;
+      width: 5rem;
+      background: lighten($color: $secondary, $amount: 20%);
+      margin: 0 auto;
+    }
+    .review {
+      background: $neutral;
+      padding: 1.5rem 2rem;
+      transition: all 2s ease-in;
+      text-align: center;
+      .img-containers {
+        position: relative;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin: 0 auto;
+        margin-bottom: 1.5rem;
+        #person-img {
+          width: 100%;
+          display: block;
+          height: 100%;
+          object-fit: cover;
+          border-radius: 50%;
+          position: relative;
+        }
+      }
+
+      .img-containers::after {
+        content: "\f10d";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 2.5rem;
+        height: 2.5rem;
+        display: grid;
+        place-items: center;
+        border-radius: 50%;
+        transform: translateY(25%);
+        background: lighten($color: $secondary, $amount: 30);
+        color: $neutral;
+      }
+      .img-containers::before {
+        content: "";
+        width: 100%;
+        height: 100%;
+        background: lighten($color: $secondary, $amount: 30);
+        position: absolute;
+        top: -0.25rem;
+        right: -0.5rem;
+        border-radius: 50%;
+      }
+
+      #author {
+        margin-bottom: 0.25rem;
+      }
+      #job {
+        margin-bottom: 0.5rem;
+        text-transform: uppercase;
+        color: $secondary;
+        font-size: 1rem;
+      }
+      #info {
+        margin-bottom: 0.75rem;
+      }
+      .prev-btn,
+      .next-btn {
+        color: $secondary;
+        font-size: 2em;
+        background: transparent;
+        border-color: transparent;
+        margin: 0 0.5rem;
+        transition: all 0.5s ease-in-out;
+        cursor: pointer;
+        outline: none;
+        border: none;
+      }
+      .prev-btn:hover,
+      .next-btn:hover {
+        color: $primary;
+      }
+      .random-btn {
+        margin-top: 0.5rem;
+        background: lighten($color: $secondary, $amount: 20);
+        color: $neutral;
+        padding: 0.25rem 0.5rem;
+        text-transform: capitalize;
+        border-radius: 5px;
+        transition: all 0.5 ease-in;
+        border: none;
+        outline: none;
+        cursor: pointer;
+      }
+      .random-btn:hover {
+        background: $secondary;
+      }
+    }
+    .review:hover {
+      box-shadow: 3px 2px $neutral;
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .test-wrapper {
+    .testimonial {
+      .title {
+        margin-bottom: 2em;
+      }
+      width: 100%;
+    }
+  }
+}

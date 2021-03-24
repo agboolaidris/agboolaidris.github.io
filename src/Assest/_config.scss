@@ -1,0 +1,30 @@
+$primary: rgb(225, 185, 75);
+$neutral: #e6ebee;
+$secondary: #1d2a34;
+$blue: #07689f;
+
+*,
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 769px) {
+  .App {
+    overflow: hidden;
+  }
+}
+.App {
+  background-color: $neutral;
+}
+
+//  .Toastify__toast {}
+.Toastify__toast--error {
+  background-color: $primary !important;
+}
+
+.Toastify__toast--success {
+  background-color: $primary !important;
+}

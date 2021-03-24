@@ -1,0 +1,25 @@
+%btn {
+  border: 2px solid $primary;
+  outline: none;
+  padding: 0.5em;
+  transition: all 1s ease-out;
+  color: $primary;
+}
+
+%btn:hover {
+  background: $primary;
+  color: $neutral;
+}
+.btns {
+  @extend %btn;
+  background: transparent;
+  margin-top: 2em;
+  width: 200px;
+  height: 50px;
+}
+
+.footer-btn,
+.contact-btn {
+  background: darken($color: $secondary, $amount: 30%);
+  @extend %btn;
+}

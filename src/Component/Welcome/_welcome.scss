@@ -1,0 +1,116 @@
+.wrapper {
+  margin-top: 1em;
+  .title {
+    margin-top: 1em;
+    text-align: center;
+    font-size: 1.5em;
+    color: $secondary;
+    .underline {
+      height: 0.25rem;
+      width: 5rem;
+      background: $secondary;
+      margin: 0.3em auto;
+      border-radius: 5px;
+    }
+  }
+
+  .welcome {
+    padding: 2em 5% 0;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+
+    .div {
+      width: 70%;
+      min-width: 50%;
+      margin: 0 auto;
+      text-align: center;
+      line-height: 1.2em;
+
+      .img-container {
+        margin: 1em auto;
+        width: 200px;
+        height: 200px;
+
+        img {
+          width: 100%;
+          border-radius: 50%;
+          box-shadow: 7px 10px $secondary;
+          border: 1px solid $secondary;
+        }
+      }
+      h3 {
+        margin: 1em 0;
+      }
+      p {
+        text-align: left;
+      }
+    }
+
+    .progressive {
+      max-width: 90%;
+      min-width: 70%;
+      margin: 0 auto;
+    }
+    .download {
+      grid-column: 1/4;
+      justify-items: center;
+      div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        a {
+          text-decoration: none;
+          margin-top: 1.5em;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          width: max-content;
+          transition: all 0.5s ease-in-out;
+          i {
+            margin-bottom: 0.3em;
+            margin-left: 2.5em;
+            color: $primary;
+            font-size: 1.5em;
+          }
+          span {
+            color: $secondary;
+            font-weight: bolder;
+          }
+        }
+        a:hover {
+          span {
+            color: $primary;
+          }
+          i {
+            color: $secondary;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .wrapper {
+    .welcome {
+      grid-template-columns: 100%;
+
+      .div {
+        width: 90%;
+      }
+      .progressive {
+        width: 90%;
+        margin-top: 1em;
+        .prog {
+          .name {
+            padding-top: 0.5em;
+            font-size: 11px;
+          }
+        }
+      }
+      .download {
+        grid-column: 1/2;
+      }
+    }
+  }
+}

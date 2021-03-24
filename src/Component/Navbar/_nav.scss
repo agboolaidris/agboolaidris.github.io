@@ -1,0 +1,112 @@
+.nav {
+  position: fixed;
+  width: 100vw;
+  min-height: 8vh;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+  padding: 0 5%;
+  border-bottom: 1px solid $blue;
+  background-color: $secondary;
+
+  .logo {
+    color: $neutral;
+    font-size: 1.5em;
+    font-weight: bolder;
+    font-family: "Princess Sofia", cursive;
+  }
+
+  .harmburger {
+    display: none;
+  }
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 80%;
+    ul {
+      margin: 0.8em auto;
+      list-style: none;
+      font-size: 1.3em;
+      li {
+        margin-left: 1em;
+      }
+
+      a {
+        text-decoration: none;
+        display: block;
+        color: $neutral;
+        transition: all 0.6s ease-out;
+        &:hover {
+          color: $primary;
+        }
+      }
+    }
+    .social,
+    .menu-link {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
+.nav.active {
+  background-color: $secondary;
+}
+@media only screen and (max-width: 700px) {
+  .nav {
+    min-height: 8vh;
+    .harmburger {
+      display: block;
+      img {
+        width: 30px;
+        height: 30px;
+      }
+    }
+
+    .menu {
+      position: fixed;
+      left: 0;
+      top: 8vh;
+      width: 100vw;
+      padding: 0.5em;
+      height: max-content;
+      background-color: $secondary;
+      flex-direction: column;
+      transform: translateY(-150%);
+      transition: all 1s ease-out;
+      ul {
+        li {
+          margin-left: 0;
+        }
+      }
+
+      .menu-link {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        li {
+          margin: 0.3em;
+          width: 100%;
+          font-size: 0.8em;
+          .underline {
+            width: 100%;
+            height: 2px;
+            margin-top: 0.1em;
+            background-color: $neutral;
+          }
+        }
+      }
+      .social {
+        width: 100%;
+        justify-content: space-around;
+      }
+    }
+
+    .menu.menu-active {
+      transform: translateY(0);
+    }
+  }
+}
