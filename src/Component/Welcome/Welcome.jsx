@@ -20,13 +20,14 @@ function Welcome() {
           </div>
           <h3>Hi, I'm Idris. Nice to meet you.</h3>
           <p>
-            Proficient In HTML, CSS, and Javascript in addition to being train
-            in the MERN stack. seeking new opportunities in the development. My
-            primary objective is to apply my technical expertise all throughout
-            the full software life cycle to ensure production and delivery of
-            products and services that meet client specifications. My experience
-            as junior software developer enhanced my abilities in designing,
-            implementing, testing, and upgrading software.
+            Self taught full-stack developer, Proficient In HTML, CSS, and
+            Javascript and train as a MERN stack. seeking new opportunities in
+            the development. My primary objective is to apply my technical
+            expertise all throughout the full software life cycle to ensure
+            production and delivery of products and services that meet client
+            specifications. My experience as junior software developer enhanced
+            my abilities in designing, implementing, testing, and upgrading
+            software.
           </p>
         </div>
         <div className="progressive" data-aos="fade-left">
