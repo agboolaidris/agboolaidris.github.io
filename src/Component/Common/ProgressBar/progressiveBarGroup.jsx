@@ -4,9 +4,7 @@ function ProgressiveBarGroup({ name, percent }) {
   return (
     <div className="progress-wrapper">
       <div className="name">{name}</div>
-      <div className="bar" data-size={`${percent}`}>
-        {percent}%
-      </div>
+      <div className="bar" data-size={`${percent}`}></div>
     </div>
   );
 }
