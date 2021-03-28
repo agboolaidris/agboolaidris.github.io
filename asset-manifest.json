@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.94606819.chunk.css",
-    "main.js": "/static/js/main.5ae0597d.chunk.js",
-    "main.js.map": "/static/js/main.5ae0597d.chunk.js.map",
+    "main.js": "/static/js/main.aa102e5a.chunk.js",
+    "main.js.map": "/static/js/main.aa102e5a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.54f30fca.js",
     "runtime-main.js.map": "/static/js/runtime-main.54f30fca.js.map",
     "static/css/2.7fc9bc2b.chunk.css": "/static/css/2.7fc9bc2b.chunk.css",
@@ -12,6 +12,7 @@
     "static/css/2.7fc9bc2b.chunk.css.map": "/static/css/2.7fc9bc2b.chunk.css.map",
     "static/css/main.94606819.chunk.css.map": "/static/css/main.94606819.chunk.css.map",
     "static/js/2.e224127d.chunk.js.LICENSE.txt": "/static/js/2.e224127d.chunk.js.LICENSE.txt",
+    "static/media/Resume.a17ac277.pdf": "/static/media/Resume.a17ac277.pdf",
     "static/media/arrowdown.c84429a0.svg": "/static/media/arrowdown.c84429a0.svg",
     "static/media/bar.0b5c40a5.svg": "/static/media/bar.0b5c40a5.svg",
     "static/media/idris.6021a9e2.png": "/static/media/idris.6021a9e2.png"
@@ -21,6 +22,6 @@
     "static/css/2.7fc9bc2b.chunk.css",
     "static/js/2.e224127d.chunk.js",
     "static/css/main.94606819.chunk.css",
-    "static/js/main.5ae0597d.chunk.js"
+    "static/js/main.aa102e5a.chunk.js"
   ]
 }
