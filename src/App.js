@@ -4,8 +4,9 @@ import Navbar from "./Component/Navbar/Navbar";
 import Footer from "./Component/Footer/Footer";
 import Content from "./Component/Content/Content";
 import Welcome from "./Component/Welcome/Welcome";
-import Skills from "./Component/Skill/Skills";
+import Services from "./Component/services/services";
 import Project from "./Component/Project/Project";
+import Skills from "./Component/Skills/Skills";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Navbar />
       <Content />
       <Welcome />
+      <Services />
       <Skills />
       <Project />
       <Footer />

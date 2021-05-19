@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 @import url("https://use.fontawesome.com/releases/v5.13.0/css/all.css");
 @import url("https://fonts.googleapis.com/css2?family=Princess+Sofia&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap");
@@ -25,8 +26,8 @@ body {
 
 @import "./Component/Content/content";
 @import "./Component/Welcome/welcome";
-@import "./Component/Skill/skill";
-
+@import "./Component/services/services.scss";
+@import "./Component//Skills/Skills.scss";
 @import "./Component/Project/project";
 @import "./Assest/btn";
 

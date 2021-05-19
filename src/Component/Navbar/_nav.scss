@@ -23,13 +23,13 @@
   }
   .menu {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    min-width: 80%;
+
     ul {
       margin: 0.8em auto;
       list-style: none;
-      font-size: 1.3em;
+      font-size: 1em;
       li {
         margin-left: 1em;
       }

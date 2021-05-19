@@ -1,0 +1,55 @@
+.services {
+  background-color: lighten($color: $neutral, $amount: 5%);
+  min-height: 400px;
+  padding: 2em 0;
+  .services-title {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    h2 {
+      font-size: 30px;
+      margin-bottom: 3px;
+    }
+  }
+  .service-card-wrapper {
+    display: flex;
+    margin-top: 4em;
+    padding: 0 5%;
+
+    .service-card {
+      margin: 0 1em;
+      padding: 2em;
+      border: 1px solid lighten($color: $secondary, $amount: 50);
+      border-radius: 2px;
+      h3 {
+        margin: 7px 0;
+        font-size: 25px;
+      }
+      p {
+        color: $secondary;
+      }
+      span {
+        font-size: 50px;
+        color: $blue;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .services {
+    padding: 5%;
+    .services-title {
+      width: 100%;
+    }
+    .service-card-wrapper {
+      flex-direction: column;
+      margin-top: 1em;
+      padding: 0;
+      .service-card {
+        margin-top: 1em;
+        padding: 1em;
+      }
+    }
+  }
+}
