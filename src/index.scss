@@ -28,9 +28,6 @@ body {
 @import "./Component/Welcome/welcome";
 @import "./Component/services/services.scss";
 @import "./Component//Skills/Skills.scss";
+@import "./Component/Project/ProjectCard/cardGroup.scss";
 @import "./Component/Project/project";
 @import "./Assest/btn";
-
-//common
-@import "./Component/Common/ProgressBar/progressiveBarGroup.scss";
-@import "./Component/Common/ProjectCard/cardGroup.scss";

@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import CardGroup from "../Common/ProjectCard/CardGroup";
+import CardGroup from "./ProjectCard/CardGroup";
 
 function Project() {
   useEffect(() => {
@@ -10,29 +10,24 @@ function Project() {
   const projects = [
     {
       id: "1",
-      name: "Linkedin Clone",
-      githubRepoURL: "https://github.com/agboolaidris/Linkedin-Clone",
-      websiteURL: "",
-      technology: "React/Redux/Express/Mongodb",
+      name: "Reddit Clone",
+      websiteURL: "https://clone-reddit-app.herokuapp.com",
       description:
-        "Linkedin web application clone built using React and state management library Redux and built response layout with SASS. create Backend RestAPI server with ExpressJS and Manage store data with MoongoDB database",
+        "Reddit web appliaction clone built using Nextjs and built response layout with Tailwindcss. create Backend RestAPI server with ExpressJS and Manage store data with MySQL database",
       imageURL:
-        "https://pilbox.themuse.com/image.jpg?filter=antialias&h=367&opt=1&pos=top-left&prog=1&q=keep&url=https%3A%2F%2Fcms-assets.themuse.com%2Fmedia%2Flead%2F16798.jpg%3Fv%3D73346cb41cf44e1ff68d5ab6e4dda2196615ffee&w=750",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgd9ZC-jUmpELkpk6UC4sqkZeYE7s0PrH7gA&usqp=CAU",
     },
     {
       id: "2",
       name: "E-commerce",
-      technology: "React/Redux/Express/Mongodb",
       description:
         "A clone of FlipKart an indian based e-commerce website, implement the main application page with React with Redux and TailwindCSS for the client side. create Backend RestAPI server with ExpressJS and Manage store data with MoongoDB database",
-      githubRepoURL: "https://github.com/agboolaidris/E-commerce",
       imageURL:
         "https://res.cloudinary.com/practicaldev/image/fetch/s--sxby4dcG--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/kcv0c0itp9fv0hbafo3y.jpg",
     },
     {
       id: "3",
       name: "Blog-website",
-      technology: "React/Redux/Express/Mongodb",
       description:
         "Dynamic Blog website created the server with Nodejs/Express and manage the database with MongoDB and Moongose.",
       imageURL:
@@ -42,9 +37,8 @@ function Project() {
 
   return (
     <div id="project">
-      <div className="title" data-aos="zoom-in">
-        <h2>Project</h2>
-        <div className="underline"></div>
+      <div className="project-title" data-aos="flip-up">
+        <h2>Projects</h2>
       </div>
       <div className="project">
         {projects.map((project) => {

@@ -36,7 +36,7 @@ function Skills() {
           <h3>DEVELOPMENT SKILLS</h3>
           <p>
             I am familiar and work on a daily basis with HTML, CSS, JavaScript,
-            Bootstrap and other modern frameworks
+            Nodejs and other modern frameworks
           </p>
 
           <div>

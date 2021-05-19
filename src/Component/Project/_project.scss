@@ -1,23 +1,17 @@
 #project {
   padding: 2em 5%;
   background-color: darken($color: $neutral, $amount: 3%);
-  .title {
-    margin-top: 1em;
+  .project-title {
+    margin: 2em auto 1em;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 20px;
     color: $secondary;
-    .underline {
-      height: 0.25rem;
-      width: 5rem;
-      background: $secondary;
-      margin: 0.3em auto;
-      border-radius: 5px;
-    }
   }
 
   .project {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
   }
 }
 
