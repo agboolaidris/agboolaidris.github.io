@@ -2,6 +2,19 @@ footer {
   padding-top: 1em;
   color: $neutral;
   background-color: lighten($color: $secondary, $amount: 20);
+  .footer-title {
+    width: 70%;
+    margin: 1em auto 2em;
+    text-align: center;
+    h2 {
+      font-size: 30px;
+      margin-bottom: 2px;
+      color: $primary;
+    }
+    span {
+      color: $primary;
+    }
+  }
 
   .footer-1 {
     display: grid;
@@ -19,6 +32,10 @@ footer {
         padding: 1em;
         border: none;
         outline: none;
+      }
+      input:focus,
+      textarea:focus {
+        background-color: darken($color: $neutral, $amount: 10);
       }
       .name {
         width: 95%;
@@ -109,6 +126,10 @@ footer {
 
 @media only screen and (max-width: 700px) {
   footer {
+    .footer-title {
+      width: 100%;
+      padding: 1px 5%;
+    }
     .footer-1 {
       form {
         margin: 1em auto;

@@ -5,7 +5,7 @@ import CardGroup from "../Common/ProjectCard/CardGroup";
 
 function Project() {
   useEffect(() => {
-    Aos.init({ duration: 3000 });
+    Aos.init({ duration: 300 });
   }, []);
   const projects = [
     {

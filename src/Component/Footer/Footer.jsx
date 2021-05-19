@@ -10,10 +10,14 @@ function Footer() {
 
   return (
     <footer id="contact">
-      {/* <div className="title">
-        <h2>Contact</h2>
-        <div className="underline"></div>
-      </div> */}
+      <div className="footer-title">
+        <h2>Contact details</h2>
+        <p>
+          For any type of online project please don't hesitate to get in touch
+          with me. The fastest way is to send me your message using the
+          following email <span>agboolaisholaidreez@gmail.com</span>
+        </p>
+      </div>
       <div className=" footer-1">
         <Form />
         <div>

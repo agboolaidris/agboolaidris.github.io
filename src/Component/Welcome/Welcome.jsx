@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 
 function Welcome() {
   useEffect(() => {
-    Aos.init({ duration: 100 });
+    Aos.init({ duration: 300 });
   }, []);
   return (
     <div className="welcome" id="about">
