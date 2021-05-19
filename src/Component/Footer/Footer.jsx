@@ -5,15 +5,15 @@ import Form from "./form";
 
 function Footer() {
   useEffect(() => {
-    Aos.init({ duration: 3000 });
+    Aos.init({ duration: 100 });
   }, []);
 
   return (
     <footer id="contact">
-      <div className="title">
+      {/* <div className="title">
         <h2>Contact</h2>
         <div className="underline"></div>
-      </div>
+      </div> */}
       <div className=" footer-1">
         <Form />
         <div>

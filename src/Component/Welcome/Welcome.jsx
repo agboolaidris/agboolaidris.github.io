@@ -5,10 +5,10 @@ import "aos/dist/aos.css";
 
 function Welcome() {
   useEffect(() => {
-    Aos.init({ duration: 500 });
+    Aos.init({ duration: 100 });
   }, []);
   return (
-    <div className="welcome">
+    <div className="welcome" id="about">
       <div className="welcome-img" data-aos="flip-down">
         <div className="img-container">
           <img src={idris} alt="idris" />
